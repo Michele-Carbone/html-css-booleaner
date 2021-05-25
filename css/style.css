@@ -1,24 +1,20 @@
+/*immagine di sfondo dell'intestazione*/
 header{
+    background-color: aqua;
     background-image: url(../img/pattern.png);
-    background-color: cornflowerblue;
-    background-repeat: repeat;
-    height: 100px;
-    margin-top: 0px;
+    height: 180px;
 }
-.logo{
-    width: 200px;
-}
+/*Titolo e Autore dell'articolo*/
 h1{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+address{
+    font-style: normal;
 }
 .autore{
-    color: cyan;
+    color: rgb(10, 163, 235);
+    margin-left: 0px;
 }
-.tim{
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-dfn{
-    background-color: yellow;
-    ;
-}
+.data-pubblicazione{
+    font-size: 15px;
+    font-style: normal;
