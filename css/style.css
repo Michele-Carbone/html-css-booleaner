@@ -1,3 +1,9 @@
+/*Generico*/
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    background-color: #fff;
+}
 /*immagine di sfondo dell'intestazione*/
 header{
     background-color: aqua;
@@ -18,3 +24,45 @@ address{
 .data-pubblicazione{
     font-size: 15px;
     font-style: normal;
+}
+/*immagine dell'autore con didascalia*/
+.autore-immagini{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Punti salienti*/
+.punti-salienti{
+    padding-inline-start: 10px;
+}
+/*Tabella*/
+table{
+    border-spacing: 0px;
+}
+th{
+    background-color:rgb(10, 163, 235);
+    text-align: left;
+    width: 200px;
+}
+.compresi{
+    background-color: aqua;
+}
+/*siti aggiuntivi*/
+h4{
+    color: grey;
+}
+b{
+    margin-left: 20px;
+
+}
+.monitor{
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    width: 275px;
+    height: 200px;
+}
+.grafico{
+    background-image: url(../img/graph.jpg);
+    color: white;
+    width: 275px;
+    height: 200px;
+}
