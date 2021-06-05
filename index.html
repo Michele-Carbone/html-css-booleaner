@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,78 +8,107 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>The Booleaner</title>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <!--Immagine piu il logo della pagina-->
-            <div class="immagine-logo">
-                <img src="./img/logo.svg" alt="logo" width="300px" height="250px">
-            </div>
-        </header>
-        <main>
-            <!--Titolo dell'articolo-->
-            <div>
+    <header class="main-menu">
+    <!--Immagine piu il logo della pagina-->
+        <div class="container">
+            <img id="logo" src="./img/logo.svg" alt="logo">
+        </div>
+    </header>
+    <main>
+        <!--Titolo dell'articolo-->
+        <article class="container">
+            <header class="article-header">
                 <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-                    <address>
-                        Scritto da <b class="autore">The booleaner</b><br>
-                        <i class="data-pubblicazione">il 10/10/2020</i>
-                    </address>
-            </div>
-            <!--Immagini e didascalia dell'autore-->
-            <div class="autore-immagini">
-                <img src="./img/tim-1.jpg" alt="Autore">
-                <img src="./img/tim-2.jpg" alt="Autore">
-            </div>
-            <div>
-                1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
-                2nd Photo: Wikimedia, by Paul Clarke
-            </div>
+            
+            
+                <address>Scritto da <span class="author-name">The booleaner</span></address>
+                <time class="pubdate font-small" datetime="2020-10-10 19:00">il 10/10/2020</time>
+            
+        
+                <!--Immagini e didascalia dell'autore-->
+                <figure class="autore-immagini">
+                    <img src="./img/tim-1.jpg" alt="Autore">
+                    <img src="./img/tim-2.jpg" alt="Autore">
+                    <figcaption class="font-small">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</figcaption>
+                    <figcaption class="font-small">2nd Photo: Wikimedia, by Paul Clarke</figcaption>
+                </figure>
+            </header>
             <!--Descrizione dell'articolo-->
-            <div>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat valutpat. Ut wisi enim ad minim veniam, quis nostrud <mark>exerci tation ullamcorper suscipit lobortis nils ut aliquip ex ea commodo consequat</mark>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            </div>
-            <!--Punti salienti-->
-            <div>
+            <section class="articole-conten">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat valutpat. Ut wisi enim ad minim veniam, quis nostrud <mark>exerci
+                    tation ullamcorper suscipit lobortis nils ut aliquip ex ea commodo consequat</mark>. Duis autem vel
+                    eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
+                    nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                    delenit augue duis dolore te feugait nulla facilisi.
+                </p>
+                <!--Punti salienti-->
                 <ul class="punti-salienti">
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat valutpat.</li>
-                    <li>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nils ut aliquip ex ea commodo consequat.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat valutpat.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut laoreet dolore magna aliquam erat valutpat.</li>
+                    <li>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nils ut
+                        aliquip ex ea commodo consequat.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut laoreet dolore magna aliquam erat valutpat.</li>
                 </ul>
-            </div>
-            <!--Tabella descrittiva-->
-            <table>
-                <tr class="header">
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                </tr>
-                <tr class="compresi">
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Accusantium eos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia evenient expedita a quia modi. Totam saepe quibusdam natus hatum.</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Accusantium eos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia evenient expedita a quia modi. Totam saepe quibusdam natus hatum.</td>
-                </tr>
-                <tr class="compresi">
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Accusantium eos quo, placeat consectetur ullam fugiat similique perferendis repellendus illo mollitia evenient expedita a quia modi. Totam saepe quibusdam natus hatum.</td>
-                </tr>
-            </table>
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat valutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nils ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel <mark>illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto</mark> odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            </p>
-        </main>
-        <footer>
-            <!--Siti aggiuntivi-->
-            <h4>Potrebbero interessarti</h4>
-            <h3 class="monitor"><b>Lorem ipsum dolor</b></h3>
+                <!--Tabella descrittiva-->
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="w-25">Lorem ipsum dolor</th>
+                            <th class="w-25">Lorem ipsum dolor</th>
+                            <th class="w-50">Lorem ipsum dolor</th>
+                        </tr>
+                    </thead>
+                    <tr class="odd">
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Accusantium eos quo, placeat
+                            consectetur ullam fugiat similique perferendis repellendus illo mollitia evenient expedita a
+                            quia modi. Totam saepe quibusdam natus hatum.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Accusantium eos quo, placeat
+                            consectetur ullam fugiat similique perferendis repellendus illo mollitia evenient expedita a
+                            quia modi. Totam saepe quibusdam natus hatum.
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Accusantium eos quo, placeat
+                            consectetur ullam fugiat similique perferendis repellendus illo mollitia evenient expedita a
+                            quia modi. Totam saepe quibusdam natus hatum.
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat valutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nils ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                    in hendrerit in vulputate velit esse molestie consequat, vel <mark>illum dolore eu feugiat nulla
+                    facilisis at vero eros et accumsan et iusto</mark> odio dignissim qui blandit praesent luptatum
+                    zzril delenit augue duis dolore te feugait nulla facilisi.
+                </p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <!--Siti aggiuntivi-->
+        <div class="container">
+            <h3>Potrebbero interessarti</h3>
+            
+            <div id="monitor" class="related-image"><h4>Lorem ipsum dolor</h4></div>
             <!--Immagini-->
-            <h3 class="grafico"><b>Lorem ipsum dolor</b></h3>
-        </footer>
-    </div>
+            <div id="graph" class="related-image"><h4>Lorem ipsum dolor</h4></div>
+        </div>
+    </footer>
 </body>
+
 </html>
